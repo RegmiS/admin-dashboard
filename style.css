@@ -48,3 +48,12 @@ body {
     align-self: center;
     width: 25px;
 }
+
+.account {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.account img {
+    width: 15px;
+}
