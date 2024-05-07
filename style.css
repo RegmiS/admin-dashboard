@@ -3,3 +3,27 @@
 body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
 }
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sideBoard {
+    background-color: red;
+}
+
+.mainBoard {
+    display: grid;
+    background-color: orange;
+    grid-template-rows: 1fr 7fr;
+}
+
+.account {
+    background-color: aquamarine;
+}
+
+.content {
+    background-color: bisque;
+}
