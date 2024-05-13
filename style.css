@@ -57,3 +57,29 @@ body {
 .account img {
     width: 15px;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.content-left {
+    background-color: brown;
+    padding: 15px;
+}
+
+.content-right {
+    background-color: greenyellow;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+    
+}
+
+.project-card {
+    display: grid;
+    box-shadow: -10px 0px 10px 1px yellow;
+    grid-template-rows: 1fr 1fr 2fr;
+}
